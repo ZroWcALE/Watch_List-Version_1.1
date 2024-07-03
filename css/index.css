@@ -54,3 +54,11 @@ body {
     transform: translateX(50%);
   }
 }
+
+a {
+  font-size: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 405px;
+}

@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  background-color: #9c34c2;
+}
+
+.row_poster {
+  width: 100%;
+  object-fit: contain;
+  max-height: 100px;
+  margin-right: 10px;
+  transition: transform 450ms;
+}
+
+.row_posters {
+  display: flex;
+  overflow-y: hidden;
+  overflow-x: scroll;
+  padding: 20px;
+}
+
+.row_poster:hover {
+  transform: scale(1.08);
+}
+
+.row_posters::-webkit-scrollbar {
+  display: none;
+}
+
+.row_posterLarge {
+  max-height: 100px;
+}
+
+.row {
+  color: #a0effe;
+  margin-left: 20px;
+}
