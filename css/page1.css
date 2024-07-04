@@ -141,3 +141,7 @@ body {
 .superHeros {
   color: rgb(60, 60, 117);
 }
+
+a {
+  width: 900px;
+}
