@@ -30,3 +30,15 @@ p {
   margin-right: 10px;
   transition: transform 450ms;
 }
+
+.aBack {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  color: #fda4ad;
+}
+
+.aBack:hover {
+  color: #9c34c2;
+}
