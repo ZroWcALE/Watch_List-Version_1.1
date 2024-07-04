@@ -13,7 +13,7 @@ body {
 .row_poster {
   width: 100%;
   object-fit: contain;
-  max-height: 100px;
+  max-height: 200px;
   margin-right: 10px;
   transition: transform 450ms;
 }
@@ -26,15 +26,15 @@ body {
 }
 
 .row_poster:hover {
-  transform: scale(1.08);
+  transform: scale(1.2);
 }
 
 .row_posters::-webkit-scrollbar {
-  display: none;
+  width: 5px;
 }
 
 .row_posterLarge {
-  max-height: 100px;
+  max-height: 200px;
 }
 
 .row {
@@ -46,7 +46,7 @@ body {
   background-image: url('../img/stoneHearstAsylum.webp');
   background-size: cover;
   background-position: center center;
-  color: white;
+  color: #29aaaf;
   object-fit: contain;
   height: 550px;
   padding-top: 50px;
@@ -71,6 +71,7 @@ body {
   font-size: 0.8rem;
   max-width: 360px;
   height: 180px;
+  font-weight: 700;
 }
 
 .banner_button {
@@ -87,4 +88,52 @@ body {
   padding-bottom: 0.5rem;
   background-color: #fda4ad;
   border: 2px solid #a0effe;
+}
+
+.banner_button:hover {
+  color: #29aaaf;
+  background-color: #9c34c2;
+  border: 2px solid #a0effe;
+  transition: all 0.2s;
+}
+
+.nav_logo {
+  width: 50px;
+  object-fit: contain;
+}
+
+.nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  z-index: 1;
+  transition-timing-function: ease-in;
+  transition: all 0.5s;
+}
+
+.nav_blue {
+  -ms-transform-origin-x: 40cap;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #29aaaf;
+}
+::-webkit-scrollbar-thumb {
+  background: #fda4ad;
+  border-radius: 20px;
+}
+
+.horror {
+  color: rgb(119, 38, 38);
+  padding-left: 20px;
+}
+
+.cartoons {
+  color: rgb(24, 236, 165);
 }
